@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: teal;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.page-title{
+    display: inline;
+    margin-left: 2%;
+}
+.rectangles{
+    margin-left: 10px;
+}
+.firstcontainer{
+    border: black dotted 2px;
+    width: 100%;
+    margin: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    display: inline-block;
+    border: red solid 2px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: black solid 2px;
+    -webkit-box-shadow: black 5px 5px 10px 0px
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    display: inline-block;
+    border: chocolate solid 2px;
+}
+.circles{
+    margin-left: 10px;
+}
+.secondcontainer{
+    border: black dotted 2px;
+    width: 100%;
+    margin: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.circle3{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: black solid 1px;
+    
+}
+.circle2{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    border: black solid 1px;
+    margin-left: 12px;
+}
+.circle1{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: black solid 1px;
+    margin-left: 25px;
+}
+.everything{
+    margin-left: 10px;
+}
+.thirdcontainer{
+    border: black dotted 2px;
+    width: 100%;
+    margin: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.box4{
+    width: 300px;
+    height: 300px;
+    background-color: tan;
+    box-sizing: border-box;
+}
+.circle4{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: green;
+    box-sizing: border-box;
+    display: flex;
+}
+.box5{
+    width: 160px;
+    height: 160px;
+    background-color: maroon;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.circle5{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 30%;
+}
+.fishtank{
+    text-align: center;
+    font-size: larger;
+    margin-top: 0;
+    color: white;
+}
+.fishy{
+    width: 30px;
+    height: 15px;
+    background-color: coral;
+    /* margin-left: 30%; */
+}
+.coal1{
+    margin-left: 50%;
+}
+.coal2{
+    margin-left: 50%;
+}
+.coal3{
+    margin-left: 50%;
+}
+.eye1{
+    margin-left: 30%;
+    margin-top: 30%;
+}
+/* .eye2{
+    margin-left: 66%;
+} */

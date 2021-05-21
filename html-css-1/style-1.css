@@ -1,0 +1,48 @@
+body{
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 75px;
+    border: black solid 1px;
+    padding-top: 60px;
+    background-color: salmon;
+
+
+}
+.horizontal{
+    display: inline;
+    margin-left: 1%;
+}
+.horizontal2{
+    display: inline;
+    margin-right: 25px;
+    width: 100px;
+}
+.navbar{
+    display: inline-block;
+    margin-left: 25px;
+}
+.firstbox{
+    border: black dotted 5px;
+    margin: 15px;
+    padding: 10px;
+}
+.secondbox{
+    border: black dotted 5px;
+    margin: 15px;
+    padding: 10px;
+}
+.para1{
+    display: inline;
+}
+.para3{
+    display: inline;
+}
+.CSS3-pic{
+    float: right;
+}
+.HTML5-pic{
+    float: left;
+    clear: none;
+}

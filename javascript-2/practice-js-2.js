@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = 'Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = 'Github is a website that you can store repos/projects in. You can also fork, clone, and modify your own copies of projects from others without modifying the owners original code' 
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: 'creates a new Git repository',
+    code: 'git init command'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description:'clones an existing repository',
+    code: 'git clone command'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description:'displays the state of the working directory and the staging area',
+    code: 'git status command'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description: 'adds new or changed files in your working directory to the Git staging area',
+    code: 'git add command'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description: 'is the main function for saving changes to local repository safely',
+    code: 'git commit -m() command'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+    description: 'adds a new Git Repository',
+    code: 'git remote add origin command'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: 'is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository',
+    code: 'git push command'
+}
